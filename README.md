@@ -32,16 +32,16 @@ Currently, two official plugins are available:
 
 - Succesfully our tailwind css folder is setup in our project now we have to change talwind.config.js file
 
-  ```js
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+  ```javascript
+     export default {
+         content: [
+            "./index.html",
+            "./src/**/*.{js,ts,jsx,tsx}",
+         ],
+        theme: {
+        extend: {},
+       },
+       plugins: [],
+     }
   ```
   

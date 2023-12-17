@@ -33,7 +33,6 @@ Currently, two official plugins are available:
 - Succesfully our tailwind css folder is setup in our project now we have to change talwind.config.js file
 
   ```js
-     /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",

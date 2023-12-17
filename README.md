@@ -47,8 +47,13 @@ Currently, two official plugins are available:
   
 - Add the Tailwind directives to your CSS Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
 
-```css
-   @tailwind base;
-   @tailwind components;
-   @tailwind utilities;
-```
+   ```css
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+   ```
+
+- Start your build process Run your build process with npm run dev.
+  ```bash
+     npm run dev
+  ```

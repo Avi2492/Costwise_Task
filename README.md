@@ -7,7 +7,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Setup the Application
+# Setup the Application
 
 - For setup you have to run this command in your terminal
   
@@ -20,3 +20,29 @@ Currently, two official plugins are available:
      - cd Project-name
      - npm install
   ```
+
+# Setup for tailwind css in our project
+
+- For tailwind setup go to the [tailwind CSS website](https://tailwindcss.com/docs/guides/vite)
+
+  ```bash
+     - npm install -D tailwindcss postcss autoprefixer
+     - npx tailwindcss init -p
+  ```
+
+- Succesfully our tailwind css folder is setup in our project now we have to change talwind.config.js file
+
+  ```js
+     /** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+  ```
+  
